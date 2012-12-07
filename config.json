@@ -1,10 +1,9 @@
 {
 	"locals": {
 		"url": "http://localhost:8080",
-		"name": "The Wintersmith's blog",
-		"owner": "The Wintersmith",
+		"name": "DevPatch",
+		"owner": "DevPatch LLC",
 		"description": "-32°C ain't no problems!",
 		"index_articles": 3
-	},
-	"plugins" : ["wintersmith-nunjucks"]
+	}
 }

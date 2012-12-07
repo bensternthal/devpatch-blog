@@ -4,6 +4,8 @@ date: 2012-01-31 15:00
 filename: this-is-a-test.html
 template: article.jade
 
+
+
 Welcome to your new wintersmith site mortal.
 
 This is an example of how you can set up a blog with RSS, and an archive using Wintersmith.
