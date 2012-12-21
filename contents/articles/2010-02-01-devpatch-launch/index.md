@@ -1,7 +1,7 @@
 title: DevPatch.com Launched
 author: Benjamin Sternthal
 date: 2010-02-01
-template: article.jade
+template: index.jade
 
 Announcing the launch of DevPatch.com!
 
