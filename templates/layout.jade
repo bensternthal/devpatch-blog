@@ -3,24 +3,24 @@ html(lang='en')
   head
     block head
       meta(charset='utf-8')
+      meta(name='viewport', content='width=device-width initial-scale=1.0')
       title
         block title
           = locals.name
       link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
       link(rel='stylesheet', media='screen', href='/css/bootstrap.min.css')
-      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans')
+      link(rel='stylesheet', media='screen', href='/css/bootstrap-responsive.min.css')
+      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Raleway:100|Open+Sans')
       link(rel='stylesheet', href='/css/github.css')
-      link(rel='stylesheet', href='/css/main.css')      
+      link(rel='stylesheet', href='/css/main.css')
+      link(rel="shortcut icon", href='/img/favicon.png')
   body
-    header
-      div.inner
-        block header
-          h1
-            a(href=locals.url)= locals.name
-          p= locals.description
-    div#content.container
-      block content
-        h2 Welcome to zombocom!
+    div#content.container-fluid
+      div.row-fluid
+        div.span3
+          include sidebar
+        div.span9
+          block content
       footer
         div.inner
           block footer

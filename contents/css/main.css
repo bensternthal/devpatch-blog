@@ -4,3 +4,18 @@ body {
   line-height: 1.5em;
   color: #252824;
 }
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #9cab32;
+}
+
+a {
+    color: #9cab32;
+}
+
+
+.sidebar-nav {
+    margin-top:100px;
+}
