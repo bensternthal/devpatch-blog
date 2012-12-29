@@ -15,7 +15,18 @@ a {
     color: #9cab32;
 }
 
+a:hover {
+    color: #60691f;
+    text-decoration: underline;
+}
+
 
 .sidebar-nav {
     margin-top:100px;
+}
+
+@media (max-width: 768px) {
+    .sidebar-nav {
+      margin-top:10px;
+  }
 }
