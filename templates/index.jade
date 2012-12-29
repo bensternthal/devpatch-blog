@@ -10,7 +10,7 @@ block content
   - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
   -   // sort them by date
   -   return -item.date
-  - }).first(3).value() // and finally take the first 5
+  - }).first(4).value() // and finally take the first 5
   each article in articles
     article.post
       header
@@ -18,7 +18,8 @@ block content
           a(href=article.url)= article.title
         p
           //mixin author(article.metadata.author) -
-          mixin date(article.metadata.date)
+          em
+            mixin date(article.metadata.date)
       section.content!= article.intro
       if article.hasMore
         p.read-more

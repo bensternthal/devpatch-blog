@@ -3,14 +3,15 @@ extends layout
 include date
 
 block prepend title
-  | #{ page.title } -
+  | #{ page.title } |
 
 block header
 
 block content
   h1= page.title
   p
-    mixin date(page.metadata.date)
+    em
+      mixin date(page.metadata.date)
   article.post
     section.content!= page.html
   include comments.html
