@@ -1,7 +1,9 @@
+---
 title: Debugging Front End Code, New Tools
 author: Benjamin Sternthal
 date: 2010-03-01
 template: article.jade
+---
 
 Front End debugging tools have come a long way. Below are some of the tools I am using on a daily basis to debug and fine-tune my front end code.
 ***

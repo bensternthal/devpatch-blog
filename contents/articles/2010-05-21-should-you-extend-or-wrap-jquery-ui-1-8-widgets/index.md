@@ -1,7 +1,9 @@
+---
 title: Should You Extend or Wrap jQuery UI 1.8 Widgets
 author: Benjamin Sternthal
 date: 2010-05-21
 template: article.jade
+---
 
 As part of a recent project I was tasked with creating a set of custom jQuery UI widgets. When specing my  widgets I discovered almost all would use some existing widget features, like sortable.<strong> I found myself trying to decide if I should extend existing widgets or somehow wrap the existing widgets with my custom code?</strong> I think this is a common question.
 

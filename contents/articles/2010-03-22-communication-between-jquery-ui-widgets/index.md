@@ -1,6 +1,8 @@
+---
 title: Communication Between jQuery UI Widgets
 date: 2010-03-22
 template: article.jade
+---
 
 When writing user interfaces using jQuery I often need widgets to interact with each other. For example, an ajax status widget that displays a spinner when an ajax call starts, and displays a status message when the ajax call completes. This widget should be accessible by whatever other widgets are on the page.
 

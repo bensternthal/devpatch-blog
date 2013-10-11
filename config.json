@@ -1,9 +1,26 @@
 {
-	"locals": {
-		"url": "http://www.devpatch.com",
-		"name": "DevPatch",
-		"owner": "DevPatch LLC",
-		"description": "-32°C ain't no problems!",
-		"index_articles": 3
-	}
+  "locals": {
+    "url": "http://www.devpatch.com",
+    "name": "DevPatch",
+    "owner": "DevPatch LLC",
+    "description": "Devpatch Blog"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
 }

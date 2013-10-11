@@ -1,7 +1,9 @@
+---
 title: Symptoms That Something Is Seriously Wrong at a Startup
 author: Benjamin Sternthal
 date:  2011-08-22
 template: article.jade
+---
 
 For most of my professional career, from 1999-2007 I worked at large corporations (Conde Nast, John Wiley & Sons) and had
 almost no experience with either startups or small companies. There are huge differences in these work environments and

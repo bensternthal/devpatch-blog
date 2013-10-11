@@ -1,7 +1,9 @@
+---
 title: Octopress . . .Some Thoughts
 date: 2011-08-15
 author: Benjamin Sternthal
 template: article.jade
+---
 
 I recently switched my blog from Wordpress to Octopress. Below are some thoughts/points I collected during this process.
 

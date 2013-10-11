@@ -1,7 +1,9 @@
+---
 title: A Full Page Width Scroller For jQueryUI - wideScroller
 date: 2010-11-22
 author: Benjamin Sternthal
 template: article.jade
+---
 
 ![image](featured-image1.png)
 

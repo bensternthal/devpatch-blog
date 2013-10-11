@@ -1,7 +1,9 @@
+---
 title: Painless EOT Font Generation With FontSquirrel
 author: Benjamin Sternthal
 date: 2010-02-03
 template: article.jade
+---
 
 So you want to use @font-face to add some fancy fonts to your site. Well there is that pesky problem of IE needing a specific font type. Until recently you had to use Microsoft's WEFT tool to generate the right files. Personally I'd rather stick needles into my eyeballs than use this awful program, luckily some online tools have sprung up to ease the pain.
 

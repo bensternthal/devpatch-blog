@@ -1,7 +1,9 @@
-title: Kanban & Web Productions At Mozilla: Lessons Learned
+---
+title: Kanban & Web Productions At Mozilla - Lessons Learned
 date: 2013-06-28
 author: Benjamin Sternthal
 template: article.jade
+---
 
 I wrote about my team's experience using kanban & Kanbanery here: 
 

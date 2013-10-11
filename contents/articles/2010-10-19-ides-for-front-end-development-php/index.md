@@ -1,8 +1,9 @@
+---
 title: IDEs For Front End Development & PHP
 date: 2010-10-19
 author: Benjamin Sternthal
 template: article.jade
-
+---
 
 ![image](4-ide1.png)
 

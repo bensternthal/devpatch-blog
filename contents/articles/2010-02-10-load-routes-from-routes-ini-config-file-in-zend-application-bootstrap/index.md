@@ -1,7 +1,9 @@
+---
 title: Load Routes From Routes.ini Config File In Zend Application Bootstrap
 author: Benjamin Sternthal
 date: 2010-02-10
 template: article.jade
+---
 
 I spent waaaay to many hours trying to load routes via a config file in Zend Framework 1.10 and I think this might be a problem with the documentation I was following on the Zend Framework site. More on that later, let's get to my solution first.
 

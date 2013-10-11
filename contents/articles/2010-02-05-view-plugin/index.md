@@ -1,7 +1,9 @@
-title: Managing CSS and JavaScript files within a Zend Framework App - A Different Approach: View Plugin
+---
+title: Managing CSS and JavaScript files within a Zend Framework App - A Different Approach - View Plugin
 author: Benjamin Sternthal
 date: 2010-02-05
 template: article.jade
+---
 
 Reading this article on the Zend Framework Blog <a href="http://devzone.zend.com/article/11760-Managing-CSS-and-JavaScript-files-within-a-Zend-Framework-App">Managing CSS and JavaScript files within a Zend Framework App</a>, speaking personally as a front-end developer I would use a different system.
 

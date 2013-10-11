@@ -1,7 +1,9 @@
+---
 title: Installing Node.Js On OS X 10.6
 author: Benjamin Sternthal
 date: 2010-02-08
 template: article.jade
+---
 
 **Updated May 7 2010, With Version 0.1.94 From GitHub**
 

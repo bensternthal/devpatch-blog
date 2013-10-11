@@ -1,7 +1,9 @@
+---
 title: Setting up PhpStorm 2 with XDebug and MAMP
 date: 2011-02-23
 author: Benjamin Sternthal
 template: article.jade
+---
 
 Getting XDebug setup and working with PhpStorm 2 is relatively painless but I thought I would add some hints I found when setting this up. These instructions assume you are debugging a web based application using MAMP as your server environment.
 

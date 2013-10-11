@@ -1,7 +1,9 @@
+---
 title: Deploying Zend Framework With Apache ANT
 author: Benjamin Sternthal
 date: 2010-03-03
 template: article.jade
+---
 
 I recently wrote a quick ANT script to deploy a personal Zend Framework project and thought I would share the code. If you are just getting started with Agile development, ANT builds/deployments are a great first step with immediate benefits. The following example is bare-bones, it does not run tests or do anything complicated but it should give you something that works and can be built upon.
 
