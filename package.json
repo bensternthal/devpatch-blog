@@ -4,5 +4,8 @@
     "underscore": "1.4.x",
     "typogr": "0.5.x"
   },
-  "repository": "none"
+  "repository": "none",
+  "devDependencies": {
+    "flightplan": "~0.3.1"
+  }
 }

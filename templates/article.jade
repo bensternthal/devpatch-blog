@@ -10,8 +10,7 @@ block header
 block content
   h1= page.title
   p
-    em
-      mixin date(page.metadata.date)
+      em= moment.utc(page.metadata.date).format('MMMM DD, YYYY')
   article.post
     section.content!= page.html
   include comments.html

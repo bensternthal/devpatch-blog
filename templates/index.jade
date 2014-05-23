@@ -18,8 +18,7 @@ block content
           a(href=article.url)= article.title
         p
           //mixin author(article.metadata.author) -
-          em
-            mixin date(article.metadata.date)
+          em= moment.utc(article.date).format('MMMM DD, YYYY')
       section.content!= article.intro
       if article.hasMore
         p.read-more
