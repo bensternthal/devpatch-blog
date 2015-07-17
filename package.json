@@ -6,6 +6,6 @@
   },
   "repository": "none",
   "devDependencies": {
-    "flightplan": "~0.3.1"
+    "flightplan": "0.6.4"
   }
 }
